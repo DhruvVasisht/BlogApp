@@ -63,8 +63,12 @@ const NavBar = () => {
             </SignedIn>
             <SignedOut>
             <div className="hidden md:flex items-center gap-2 ">
+            <SignInButton>
               <Button>Login</Button>
+              </SignInButton>
+              <SignUpButton>
               <Button>Sign Up</Button>
+              </SignUpButton>
             </div>  
             </SignedOut>
 

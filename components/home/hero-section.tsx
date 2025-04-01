@@ -26,10 +26,10 @@ const HeroSection = () => {
               Explore More
             </Button>
           </div>
-          <div className="grid grid-cols-3 gap-4 pt-8 text-white md:mx-w-md">
+          <div className="grid grid-cols-3 gap-2 max-w-sm md:max-w-md pt-8 text-white">
             <div className="space-y-2">
               <div className="text-2xl font-bold text-primary">1K+</div>
-              <div className="text-sm text-gray-400">Published Articles</div>
+              <div className="text-sm text-gray-400 ">Published Articles</div>
             </div>
             <div className="space-y-2">
               <div className="text-2xl font-bold text-primary">50+</div>
@@ -40,25 +40,25 @@ const HeroSection = () => {
               <div className="text-sm text-gray-400">Monthly Readers</div>
             </div>
           </div>
-             </div>
-          {/* Image Frame */}
-          <div className="mt-12 flex-1 md:mt-0">
-            <div
-              className={cn(
-                "relative mx-auto h-64 w-64 rounded-2xl overflow-hidden",
+        </div>
+        {/* Image Frame */}
+        <div className="mt-12 flex-1 md:mt-0">
+          <div
+            className={cn(
+              "relative mx-auto h-64 w-64 rounded-2xl overflow-hidden",
               "bg-gradient-to-br from-white/5 to-transparent",
               "border border-primary/20 backdrop-blur-lg",
               "shadow-2xl shadow-indigo-500/10"
-              )}>
-                <Image
-                src="https://images.unsplash.com/photo-1535957998253-26ae1ef29506?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8T2ZmaWNlfGVufDB8fDB8fHww"
-                alt="Illustration for the blog"
-                fill
-                className="object-cover"
-                />
-              </div>
+            )}
+          >
+            <Image
+              src="https://images.unsplash.com/photo-1535957998253-26ae1ef29506?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8T2ZmaWNlfGVufDB8fDB8fHww"
+              alt="Illustration for the blog"
+              fill
+              className="object-cover"
+            />
           </div>
-     
+        </div>
       </div>
     </section>
   );
